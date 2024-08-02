@@ -1,0 +1,32 @@
+.wrapper{
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+#container{
+    position:absolute;
+}
+#container > img{
+    width: 500px;
+   display: none;
+}
+#container > img.active{
+    display : block;
+} 
+button{
+    position:absolute;
+    width: 100;
+    height : 100%;
+    top:0;
+    background-color: black;
+    top : 0;
+    color: white;
+}
+#prev{
+    left:0;
+}
+#next{
+    right:0;
+    
+}
